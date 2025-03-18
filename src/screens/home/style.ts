@@ -14,16 +14,18 @@ export const styles = StyleSheet.create({
     },
     eventDate: {
         color: '#6B6B6B',
-        fontSize: 16
+        fontSize: 16,
+        marginBottom: 16,
     },
     input: {
+        flex: 1,
         backgroundColor: '#1F1E25',
         borderRadius: 5,
         color: '#FFFF',
         padding: 16,
         fontSize: 16,
         height: 56,
-        marginTop: 16,
+        marginRight: 15,
     },
     button: {
         width: 56,
@@ -37,4 +39,8 @@ export const styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 24,
     },
+    form: {
+        width: '100%',
+        flexDirection: 'row',
+    }
 })
