@@ -4,16 +4,16 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#131016',
-        padding: 24
+        padding: 24,
     },
     eventName: {
-        color: '#FFF',
+        color: 'white',
         fontSize: 24,
         fontWeight: 'bold',
         marginTop: 48
     },
     eventDate: {
-        color: '#6B6B6B',
+        color: 'gray',
         fontSize: 16,
         marginBottom: 16,
     },
@@ -30,8 +30,8 @@ export const styles = StyleSheet.create({
     button: {
         width: 56,
         height: 56,
-        borderRadius: 5,
-        backgroundColor: '#31CF67',
+        borderRadius: 50,
+        backgroundColor: 'green',
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -42,5 +42,6 @@ export const styles = StyleSheet.create({
     form: {
         width: '100%',
         flexDirection: 'row',
+        marginBottom: 10,
     }
 })
