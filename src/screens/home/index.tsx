@@ -9,6 +9,10 @@ export function Home() {
         console.log("Tu clicaste no botão de adicionar e não aconteceu nada pq ainda não implementnei")
     }
 
+    function handleParticipantRemove(name: string) {
+        console.log(`Remover participante ${name}`)
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.eventName}>
@@ -35,8 +39,10 @@ export function Home() {
                     </Text>
                 </TouchableOpacity>
             </View>
-            <Participant />
-            <Participant />
+            <Participant
+                name="Marco"
+                onRemove={() => handleParticipantRemove("Marco")}
+            />
         </View>
     )
 }
