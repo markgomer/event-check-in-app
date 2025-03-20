@@ -15,7 +15,6 @@ export const styles = StyleSheet.create({
     eventDate: {
         color: 'gray',
         fontSize: 16,
-        marginBottom: 16,
     },
     input: {
         flex: 1,
@@ -42,6 +41,12 @@ export const styles = StyleSheet.create({
     form: {
         width: '100%',
         flexDirection: 'row',
-        marginBottom: 10,
+        marginBottom: 42,
+        marginTop: 36,
+    },
+    listEmptyText: {
+        color: 'white',
+        fontSize: 14,
+        textAlign: 'center'
     }
 })
