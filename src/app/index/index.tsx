@@ -1,7 +1,11 @@
+import { StatusBar } from "react-native"
 import { Home } from "../../screens/home"
 
 export default function App() {
     return (
-        <Home />
+        <>
+            <StatusBar barStyle={"light-content"} translucent />
+            <Home />
+        </>
     )
 }
